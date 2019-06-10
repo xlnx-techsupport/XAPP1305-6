@@ -6,8 +6,10 @@ This project utilizes AXI 1G/2.5G Ethernet Subsystem configured for 1000BASE-X. 
 Place all files into a new project directory.
 #### VIVADO:
 From the command line run the following:
+
 `vivado -source *top.tcl`
     
 #### PETALINUX:
 From the command line run the following:
+
 `petalinux-create -t project -s *.bsp`
