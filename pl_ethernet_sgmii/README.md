@@ -1,4 +1,4 @@
-# PL Ethernet 1G
+# PL Ethernet SGMII
 ## DESCRIPTION:
 This project utilizes AXI 1G/2.5G Ethernet Subsystem configured for SGMII. This has been routed to the SFP cage on SFP0 for use on a ZCU102 board. System is configured to use the ZCU102 si570 at 156.25MHz.
 
