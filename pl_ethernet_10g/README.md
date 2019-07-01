@@ -6,6 +6,9 @@ This project utilizes AXI 10G/25G Ethernet Subsystem configured for 10GBASE-R. T
 
 eth0 is currently configured as GEM3 routed via RGMII to the on-board PHY.
 
+## BLOCK DIAGRAM:
+![PL 10GbE Block Design](./media/pl_ethernet_10g.svg)
+
 ## USAGE:
 Place all files into a new project directory.
 #### VIVADO:
