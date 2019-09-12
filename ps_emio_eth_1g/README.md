@@ -13,3 +13,6 @@ From the command line run the following:
 From the command line run the following:
 
 `petalinux-create -t project -s *.bsp`
+
+To package an SD image for SD Boot, run the following:
+`petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --fpga images/linux/system.bit --pmufw images/linux/pmufw.elf --u-boot --force`
