@@ -49,7 +49,7 @@ if { $list_projs eq "" } {
 
 # CHANGE DESIGN NAME HERE
 variable design_name
-set design_name PL_10GBASE_R
+set design_name pl_ethernet_10g
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:

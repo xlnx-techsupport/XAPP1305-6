@@ -1,8 +1,8 @@
 set impl_const ./constrs.xdc
 set ui_name bd_bce4905f.ui
 set device xczu9eg-ffvb1156-2-i
-set proj_dir PL_10GBASE_R
-set design_top PL_10GBASE_R
+set proj_dir pl_ethernet_10g
+set design_top pl_ethernet_10g
 
 
 create_project -name ${design_top} -force -dir "./${proj_dir}" -part ${device}
